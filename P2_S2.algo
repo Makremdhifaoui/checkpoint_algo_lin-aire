@@ -8,17 +8,17 @@ VAR
  
 BEGIN
    htab1 : HASH_TABLE<INTEGER,INTEGER>;
-   htab1.insert(0,3);
-   htab1.insert(1,1);
-   htab1.insert(2,7);
-   htab1.insert(3,9);
+   htab1.insert(0,12);
+   htab1.insert(1,13);
+   htab1.insert(2,6);
+   htab1.insert(3,10);
    Write(htab1);
 
    htab2 : HASH_TABLE<INTEGER,INTEGER>;
-   htab2.insert(0,2);
-   htab2.insert(1,4);
-   htab2.insert(2,1);
-   htab2.insert(3,9);
+   htab2.insert(0,13);
+   htab2.insert(1,10);
+   htab2.insert(2,16);
+   htab2.insert(3,15);
    Write(htab2);
 
     FOR i FROM 0 TO 3 STEP step1  DO
